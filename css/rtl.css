@@ -1,0 +1,58 @@
+*[dir="rtl"] {
+    direction: rtl;
+    /*font-family: 'Changa', sans-serif;*/
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    unicode-bidi: embed;
+}
+body, h1, h2, h3, h4, h5, h6, .tp-caption.alt-font, .tp-caption.medium-text, .statistic h5, .parallax-promo h3, .btn.btn-light, .overlay-menu ul li a {
+
+    font-family: 'Droid Arabic Kufi', sans-serif;
+    unicode-bidi: embed;
+}
+.lead-text {
+    font-size: 24px;
+    line-height: 44px;
+}
+h2 {
+    font-size: 40px;
+}
+.contact-icon {
+    float: right;
+}
+.contact-icon i {
+    margin-left: 10px;
+    margin-right: 0;
+}
+.contact-item {
+    padding-left: 30px;
+    padding-right: 115px;
+}
+.parallax-promo h3 {
+    letter-spacing: 0;
+}
+.h-line:before {
+    margin-right: 0;
+}
+
+@media (min-width: 992px) {
+    .col-md-4 {
+        width: 33.33333333%;
+        float: right;
+    }
+}
+
+@media (max-width: 540px) {
+    .navbar-fixed-top .contact_header {
+        margin-top: 10px;
+        margin-left: 20px;
+    }
+    .lead-text {
+        font-size: 18px;
+        line-height: 28px;
+    }
+    h2 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+}
